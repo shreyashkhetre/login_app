@@ -1,0 +1,34 @@
+name: rock
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.6.0
+  firebase_core: ^3.14.0
+  firebase_storage: ^12.4.7
+  cloud_firestore: ^5.6.9
+  fluttertoast: ^8.2.12
+  pin_code_fields: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # ✅ Correct location
+
+flutter_launcher_icons:                  # ✅ Correct top-level location
+  android: true
+  ios: true
+  image_path: "assets/icon/s.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/

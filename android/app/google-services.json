@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256480864663",
+    "project_id": "rock-15214",
+    "storage_bucket": "rock-15214.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256480864663:android:520f8aa34e677188f4fcd2",
+        "android_client_info": {
+          "package_name": "com.example.rock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXIsinDU2bWpLjAShvFO1H53nIMwRmpks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
