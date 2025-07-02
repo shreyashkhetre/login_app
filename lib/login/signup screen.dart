@@ -92,7 +92,7 @@ class _SignupScreenState extends State<SignupScreen> {
                           ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.message ?? 'Error')));
                         },
                         codeSent: (verificationId, resendToken) {
-                          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
+                          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>OTPScreen(phone: input, verificationId: verificationId)));
 
                         },
                         codeAutoRetrievalTimeout: (verificationId) {},
